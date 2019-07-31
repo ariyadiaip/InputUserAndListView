@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="id.smkn4.smkcoding.inputuserandlistview">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+        </activity>
+        <activity android:name=".textview">
+        </activity>
+        <activity android:name=".edittext">
+
+        </activity>
+        <activity android:name=".autocompletetextview">
+
+        </activity>
+        <activity android:name=".button">
+
+        </activity>
+        <activity android:name=".imagebutton">
+
+        </activity>
+        <activity android:name=".togglebutton">
+
+        </activity>
+        <activity android:name=".checkbox">
+
+        </activity>
+        <activity android:name=".radiobutton">
+
+        </activity>
+        <activity android:name=".progressbar">
+
+        </activity>
+        <activity android:name=".spinner">
+
+        </activity>
+        <activity android:name=".timepicker">
+
+        </activity>
+        <activity android:name=".datepicker">
+
+        </activity>
+        <activity android:name=".seekbar">
+
+        </activity>
+        <activity android:name=".alertdialog">
+
+        </activity>
+        <activity android:name=".switchh">
+
+        </activity>
+        <activity android:name=".ratingbar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
